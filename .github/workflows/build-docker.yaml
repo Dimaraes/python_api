@@ -18,4 +18,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag dimaraes/python_api:$(date +%y-%m-%d_%H-%M)
     - name: Docker push
-      run: docker push dimaraes/python_api:$(date +%y-%m-%d_%H-%M)
+      run: docker push marcusdimaraes/python_api:$(date +%y-%m-%d_%H-%M)
